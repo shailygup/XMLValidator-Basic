@@ -1,0 +1,26 @@
+<!ELEMENT orders (ProductCatalog*, Customer*, CustOrder*, LineItem*)>
+<!ELEMENT ProductCatalog (type, color, size, price)>
+	<!ATTLIST ProductCatalog productId CDATA #REQUIRED>
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT color (#PCDATA)>
+	<!ELEMENT size (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	
+	<!ELEMENT Customer (lastName, address, phone, Cellphone)>
+	<!ATTLIST Customer id CDATA #REQUIRED>
+	<!ELEMENT lastName (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT Cellphone (#PCDATA)>
+	
+	<!ELEMENT CustOrder (custId, ordDate, ordTotal)>
+	<!ATTLIST CustOrder orderId CDATA #REQUIRED>
+	<!ELEMENT custId (#PCDATA)>
+	<!ELEMENT ordDate (#PCDATA)>
+	<!ELEMENT ordTotal (#PCDATA)>
+	
+	<!ELEMENT LineItem (prodId, quantity, lineItemTotal)>
+	<!ATTLIST LineItem orderId CDATA #REQUIRED>
+	<!ELEMENT prodId (#PCDATA)>
+	<!ELEMENT quantity (#PCDATA)>
+	<!ELEMENT lineItemTotal (#PCDATA)>

@@ -1,0 +1,318 @@
+<?xml version= "1.0" ?>
+<!DOCTYPE orders SYSTEM "external.dtd">
+<orders>
+	<ProductCatalog productId="1">
+		<type>Chair</type>
+		<color>green</color>
+		<size>small</size>
+		<price>10.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="2">
+		<type>Chair</type>
+		<color>green</color>
+		<size>medium</size>
+		<price>15.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="3">
+		<type>Chair</type>
+		<color>green</color>
+		<size>large</size>
+		<price>20.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="4">
+		<type>Chair</type>
+		<color>blue</color>
+		<size>small</size>
+		<price>10.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="5">
+		<type>Chair</type>
+		<color>blue</color>
+		<size>medium</size>
+		<price>15.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="6">
+		<type>Chair</type>
+		<color>blue</color>
+		<size>large</size>
+		<price>20.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="7">
+		<type>Table</type>
+		<color>light</color>
+		<size>small</size>
+		<price>20.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="8">
+		<type>Table</type>
+		<color>light</color>
+		<size>medium</size>
+		<price>30.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="9">
+		<type>Table</type>
+		<color>dark</color>
+		<size>small</size>
+		<price>22.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="10">
+		<type>Table</type>
+		<color>dark</color>
+		<size>medium</size>
+		<price>32.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="11">
+		<type>Couch</type>
+		<color>green</color>
+		<size>medium</size>
+		<price>45.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="12">
+		<type>Couch</type>
+		<color>green</color>
+		<size>large</size>
+		<price>45.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="13">
+		<type>Couch</type>
+		<color>blue</color>
+		<size>medium</size>
+		<price>45.0000</price>
+	</ProductCatalog>
+
+	<ProductCatalog productId="14">
+		<type>Couch</type>
+		<color>blue</color>
+		<size>large</size>
+		<price>45.0000</price>
+	</ProductCatalog>
+	
+
+	<Customer id="1">
+		<lastName>Jones</lastName>
+		<address>112 Fir St, Vancouver</address>
+		<phone>604-666-7777</phone>
+		<Cellphone>778-435-4444</Cellphone>
+	</Customer>
+
+	<Customer id="2">
+		<lastName>Smith</lastName>
+		<address>1067 2nd Ave, New Westminster</address>
+		<phone>604-444-7086</phone>
+		<Cellphone>null</Cellphone>
+	</Customer>
+
+	<Customer id="3">
+		<lastName>Wong</lastName>
+		<address>1111 Royal St., Burnaby</address>
+		<phone>604-555-4856</phone>
+		<Cellphone>null</Cellphone>
+	</Customer>
+
+	<Customer id="4">
+		<lastName>Smith</lastName>
+		<address>105 6th Ave, Vancouver</address>
+		<phone>604-456-3345</phone>
+		<Cellphone>604-777-4567</Cellphone>
+	</Customer>
+
+	<Customer id="5">
+		<lastName>Doe</lastName>
+		<address>1234 Elm St., Vancouver</address>
+		<phone>604-845-8346</phone>
+		<Cellphone>null</Cellphone>
+	</Customer>
+
+	<Customer id="6">
+		<lastName>Williams</lastName>
+		<address>1134 London St., New Westminster</address>
+		<phone>604-567-3947</phone>
+		<Cellphone>null</Cellphone>
+	</Customer>
+
+	<Customer id="7">
+		<lastName>Newton</lastName>
+		<address>5645 41st Ave, Vancouver</address>
+		<phone>604-124-5314</phone>
+		<Cellphone>null</Cellphone>
+	</Customer>
+	
+
+	<CustOrder orderId="1">
+		<custId>2</custId>
+		<ordDate>2008-02-03 00:00:00</ordDate>
+		<ordTotal>null</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="2">
+		<custId>4</custId>
+		<ordDate>2007-06-05 00:00:00</ordDate>
+		<ordTotal>110.0000</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="3">
+		<custId>5</custId>
+		<ordDate>2007-06-07 00:00:00</ordDate>
+		<ordTotal>22.0000</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="4">
+		<custId>4</custId>
+		<ordDate>2008-02-04 00:00:00</ordDate>
+		<ordTotal>null</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="5">
+		<custId>3</custId>
+		<ordDate>2008-02-04 00:00:00</ordDate>
+		<ordTotal>30.0000</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="6">
+		<custId>4</custId>
+		<ordDate>2008-02-05 00:00:00</ordDate>
+		<ordTotal>null</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="7">
+		<custId>1</custId>
+		<ordDate>2008-02-10 00:00:00</ordDate>
+		<ordTotal>167.0000</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="8">
+		<custId>6</custId>
+		<ordDate>2008-02-04 00:00:00</ordDate>
+		<ordTotal>null</ordTotal>
+	</CustOrder>
+
+	<CustOrder orderId="9">
+		<custId>2</custId>
+		<ordDate>2008-02-10 00:00:00</ordDate>
+		<ordTotal>null</ordTotal>
+	</CustOrder>
+
+	
+	
+	<LineItem orderId="1">
+		<prodId>4</prodId>
+		<quantity>1</quantity>
+		<lineItemTotal>10.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="1">
+		<prodId>1</prodId>
+		<quantity>3</quantity>
+		<lineItemTotal>30.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="2">
+		<prodId>1</prodId>
+		<quantity>2</quantity>
+		<lineItemTotal>20.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="2">
+		<prodId>8</prodId>
+		<quantity>3</quantity>
+		<lineItemTotal>90.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="3">
+		<prodId>9</prodId>
+		<quantity>1</quantity>
+		<lineItemTotal>22.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="4">
+		<prodId>2</prodId>
+		<quantity>4</quantity>
+		<lineItemTotal>null</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="4">
+		<prodId>3</prodId>
+		<quantity>2</quantity>
+		<lineItemTotal>40.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="5">
+		<prodId>5</prodId>
+		<quantity>2</quantity>
+		<lineItemTotal>30.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="6">
+		<prodId>6</prodId>
+		<quantity>1</quantity>
+		<lineItemTotal>20.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="6">
+		<prodId>3</prodId>
+		<quantity>2</quantity>
+		<lineItemTotal>null</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="6">
+		<prodId>8</prodId>
+		<quantity>3</quantity>
+		<lineItemTotal>null</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="6">
+		<prodId>14</prodId>
+		<quantity>1</quantity>
+		<lineItemTotal>null</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="7">
+		<prodId>13</prodId>
+		<quantity>3</quantity>
+		<lineItemTotal>135.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="8">
+		<prodId>13</prodId>
+		<quantity>5</quantity>
+		<lineItemTotal>null</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="8">
+		<prodId>3</prodId>
+		<quantity>1</quantity>
+		<lineItemTotal>20.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="4">
+		<prodId>9</prodId>
+		<quantity>2</quantity>
+		<lineItemTotal>null</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="4">
+		<prodId>10</prodId>
+		<quantity>2</quantity>
+		<lineItemTotal>64.0000</lineItemTotal>
+	</LineItem>
+
+	<LineItem orderId="7">
+		<prodId>10</prodId>
+		<quantity>1</quantity>
+		<lineItemTotal>32.0000</lineItemTotal>
+	</LineItem>
+	
+
+</orders>
